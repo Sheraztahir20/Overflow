@@ -7,7 +7,7 @@
     <title>overflow</title>
     <link rel="stylesheet" href="./style.css">
     <style>
-        div{
+        /* div{
 height: 500px;
 width: 300px;
 overflow: auto;
@@ -15,8 +15,8 @@ margin: 10px;
 display: inline-block;
 position: sticky;
 top: 10px;
-        }
-        #myDiv{
+        } */
+        /* #myDiv{
             background-color: indigo ;
         }
         span{
@@ -24,11 +24,32 @@ top: 10px;
             padding: 5px;
             margin: 10px;
             background-color: lightcoral;
+        } */
+        #div1{
+            border: 2px solid red;
+            height: 500px;
+            width: 600px;
+            position: relative;
+            padding: 10px;
+            margin-left: 100px;
+        }
+        #div2{
+            height: 100px;
+            width: 200px;
+            background-color: red;
+            position: absolute;
+            right: 0px;
+
         }
     </style>
 </head>
 <body>
-    <div>
+    <div id="div1">
+        <div id="div2"></div>
+
+    </div>
+
+    <!-- <div>
         <span>1</span>
         <span>2</span>
         <span>3</span>
@@ -49,8 +70,7 @@ top: 10px;
         <span>18</span>
         <span>19</span>
         <span>20</span>
-
-    </div>
+    </div> -->
     <!-- <div id="myDiv">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus temporibus, similique consectetur expedita repudiandae ab doloremque quibusdam cupiditate fugiat laboriosam sapiente at dolorem facere nesciunt libero rem suscipit reprehenderit corrupti.
     </div>
